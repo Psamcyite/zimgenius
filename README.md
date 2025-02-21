@@ -4,42 +4,42 @@ ZimGenius is an AI-powered job match dashboard that provides personalized job re
 
 ## Features
 
-_**Job Listings:** Displays job recommendations with company details, location, salary, and match score.
+**Job Listings:** Displays job recommendations with company details, location, salary, and match score.
 
-_**Match Score Visualization:** – Progress bar indicating job match percentage (Green: 80%+, Yellow: 50-79%, Red: <50%).
+**Match Score Visualization:** – Progress bar indicating job match percentage (Green: 80%+, Yellow: 50-79%, Red: <50%).
 
-_**Job Details:** – Clickable job cards open a modal with full job descriptions and required skills.
+**Job Details:** – Clickable job cards open a modal with full job descriptions and required skills.
 
-_**Apply Now:** – Users can "apply" for jobs (mock action), with skill gap suggestions.
+**Apply Now:** – Users can "apply" for jobs (mock action), with skill gap suggestions.
 
-_**Responsive UI:** – Fully optimized for mobile and desktop.
+**Responsive UI:** – Fully optimized for mobile and desktop.
 
-_**API Integration:** – Fetches job data dynamically.
+**API Integration:** – Fetches job data dynamically.
 
-_**State Management:** – Uses Zustand for efficient state handling.
+**State Management:** – Uses Zustand for efficient state handling.
 
-_**CI/CD & Testing:** – GitHub Actions for automated deployment, Dependabot for security updates, and Playwright/Jest for testing.
+**CI/CD & Testing:** – GitHub Actions for automated deployment, Dependabot for security updates, and Playwright/Jest for testing.
 
-_**Docker Support:** – Easy deployment via Docker.
+**Docker Support:** – Easy deployment via Docker.
 
-_**Vercel Deployment:** – Live demo hosted on Vercel.
+**Vercel Deployment:** – Live demo hosted on Vercel.
 
 
 ## Tech Stack
 
-_**Frontend:** Next.js 15, React, TypeScript, Tailwind CSS
+**Frontend:** Next.js 15, React, TypeScript, Tailwind CSS
 
-_**Backend:** Node.js, Express.js (if needed for API mockups)
+**Backend:** Node.js, Express.js (if needed for API mockups)
 
-_**Database:** PostgreSQL (or Mock JSON API for demo)
+**Database:** PostgreSQL (or Mock JSON API for demo)
 
-_**State Management:** Zustand
+**State Management:** Zustand
 
-_**Testing:** Jest, Playwright
+**Testing:** Jest, Playwright
 
-_**CI/CD:** GitHub Actions, Dependabot
+**CI/CD:** GitHub Actions, Dependabot
 
-_**Deployment:** Vercel, Docker
+**Deployment:** Vercel, Docker
 
 
 ## Installation
