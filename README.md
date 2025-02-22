@@ -1,67 +1,36 @@
-# ZimGenius
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-ZimGenius is an AI-powered job match dashboard that provides personalized job recommendations based on user skills. Built with Next.js 15, TypeScript, and Tailwind CSS, it dynamically fetches job data, calculates match scores, and offers a seamless job application experience.
+## Getting Started
 
-## Features
+First, run the development server:
 
-**Job Listings:** Displays job recommendations with company details, location, salary, and match score.
-
-**Match Score Visualization:** – Progress bar indicating job match percentage (Green: 80%+, Yellow: 50-79%, Red: <50%).
-
-**Job Details:** – Clickable job cards open a modal with full job descriptions and required skills.
-
-**Apply Now:** – Users can "apply" for jobs (mock action), with skill gap suggestions.
-
-**Responsive UI:** – Fully optimized for mobile and desktop.
-
-**API Integration:** – Fetches job data dynamically.
-
-**State Management:** – Uses Zustand for efficient state handling.
-
-**CI/CD & Testing:** – GitHub Actions for automated deployment, Dependabot for security updates, and Playwright/Jest for testing.
-
-**Docker Support:** – Easy deployment via Docker.
-
-**Vercel Deployment:** – Live demo hosted on Vercel.
-
-
-## Tech Stack
-
-**Frontend:** Next.js 15, React, TypeScript, Tailwind CSS
-
-**Backend:** Node.js, Express.js (if needed for API mockups)
-
-**Database:** PostgreSQL (or Mock JSON API for demo)
-
-**State Management:** Zustand
-
-**Testing:** Jest, Playwright
-
-**CI/CD:** GitHub Actions, Dependabot
-
-**Deployment:** Vercel, Docker
-
-
-## Installation
 ```bash
-git clone https://github.com/Psamcyite/zimgenius.git
-cd zimgenius
-pnpm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
-### Running the Project
-```
-pnpm dev  # Start the development server
-pnpm test # Run Jest & Playwright tests
-docker-compose up # Start using Docker (optional)
-```
-## Deployment
 
-The project is automatically deployed to Vercel via GitHub Actions.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Contributing
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Feel free to fork the repo and submit a pull request with improvements!
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## License
+## Learn More
 
-MIT License
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
