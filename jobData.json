@@ -16,5 +16,437 @@
     "salary": "$80,000 - $100,000",
     "requiredSkills": ["Figma", "React", "CSS"],
     "matchScore": 70
+  },
+  {
+    "id": 3,
+    "title": "Cybersecurity Analyst",
+    "company": "CyberShield",
+    "location": "New York, USA",
+    "salary": "$95,000 - $120,000",
+    "requiredSkills": ["Network Security", "SIEM", "Incident Response", "Penetration Testing"],
+    "matchScore": 59
+  },
+  {
+    "id": 4,
+    "title": "Data Scientist",
+    "company": "DataGen",
+    "location": "Berlin, Germany",
+    "salary": "€85,000 - €110,000",
+    "requiredSkills": ["Python", "SQL", "Statistics", "Machine Learning"],
+    "matchScore": 96
+  },
+  {
+    "id": 5,
+    "title": "Mobile App Developer",
+    "company": "AppFlow",
+    "location": "San Francisco, USA",
+    "salary": "$100,000 - $125,000",
+    "requiredSkills": ["Flutter", "React Native", "Swift", "Kotlin"],
+    "matchScore": 68
+  },
+  {
+    "id": 6,
+    "title": "DevOps Engineer",
+    "company": "CloudOps",
+    "location": "Singapore",
+    "salary": "SGD 110,000 - SGD 140,000",
+    "requiredSkills": ["CI/CD", "Kubernetes", "Terraform", "AWS"],
+    "matchScore": 88
+  },
+  {
+    "id": 7,
+    "title": "Full Stack Developer",
+    "company": "CodeCrafters",
+    "location": "Toronto, Canada",
+    "salary": "CAD 90,000 - CAD 120,000",
+    "requiredSkills": ["React.js", "Node.js", "TypeScript", "GraphQL"],
+    "matchScore": 86
+  },
+  {
+    "id": 8,
+    "title": "AI Engineer",
+    "company": "NeuralTech",
+    "location": "Paris, France",
+    "salary": "€90,000 - €115,000",
+    "requiredSkills": ["Deep Learning", "PyTorch", "TensorFlow", "Computer Vision"],
+    "matchScore": 57
+  },
+  {
+    "id": 9,
+    "title": "Software Architect",
+    "company": "SoftWorks",
+    "location": "Sydney, Australia",
+    "salary": "AUD 130,000 - AUD 160,000",
+    "requiredSkills": ["Microservices", "Cloud Architecture", "Design Patterns", "Java"],
+    "matchScore": 49
+  },
+  {
+    "id": 10,
+    "title": "Cloud Engineer",
+    "company": "CloudNet",
+    "location": "Amsterdam, Netherlands",
+    "salary": "€85,000 - €105,000",
+    "requiredSkills": ["AWS", "GCP", "Docker", "Kubernetes"],
+    "matchScore": 67
+  },
+  {
+    "id": 11,
+    "title": "Penetration Tester",
+    "company": "RedSec",
+    "location": "Dubai, UAE",
+    "salary": "AED 250,000 - AED 300,000",
+    "requiredSkills": ["Ethical Hacking", "Burp Suite", "OWASP", "Kali Linux"],
+    "matchScore": 90
+  },
+  {
+    "id": 12,
+    "title": "Backend Developer",
+    "company": "APIX",
+    "location": "Stockholm, Sweden",
+    "salary": "SEK 600,000 - SEK 750,000",
+    "requiredSkills": ["Node.js", "Go", "PostgreSQL", "GraphQL"],
+    "matchScore": 85
+  },
+  {
+    "id": 13,
+    "title": "Game Designer",
+    "company": "GameWorld",
+    "location": "Montreal, Canada",
+    "salary": "CAD 85,000 - CAD 110,000",
+    "requiredSkills": ["Game Design", "3D Modeling", "Unreal Engine", "C++"],
+    "matchScore": 83
+  },
+  {
+    "id": 14,
+    "title": "Machine Learning Engineer",
+    "company": "AI Labs",
+    "location": "San Jose, USA",
+    "salary": "$120,000 - $150,000",
+    "requiredSkills": ["Machine Learning", "Data Engineering", "Python", "NLP"],
+    "matchScore": 92
+  },
+  {
+    "id": 15,
+    "title": "Cloud DevOps Engineer",
+    "company": "CloudX",
+    "location": "Manchester, UK",
+    "salary": "£85,000 - £110,000",
+    "requiredSkills": ["AWS", "Terraform", "Kubernetes", "CI/CD"],
+    "matchScore": 66
+  },
+  {
+    "id": 16,
+    "title": "Digital Marketing Specialist",
+    "company": "BrandBoost",
+    "location": "Barcelona, Spain",
+    "salary": "€55,000 - €75,000",
+    "requiredSkills": ["SEO", "Google Ads", "Analytics", "Content Marketing"],
+    "matchScore": 59
+  },
+  {
+    "id": 17,
+    "title": "IT Support Specialist",
+    "company": "TechFix",
+    "location": "Helsinki, Finland",
+    "salary": "€50,000 - €65,000",
+    "requiredSkills": ["Help Desk", "Linux", "Windows Server", "Networking"],
+    "matchScore": 75
+  },
+  {
+    "id": 18,
+    "title": "Software Engineer",
+    "company": "CodeBase",
+    "location": "Madrid, Spain",
+    "salary": "€75,000 - €95,000",
+    "requiredSkills": ["Java", "Spring Boot", "SQL", "REST APIs"],
+    "matchScore": 84
+  },
+  {
+    "id": 19,
+    "title": "Frontend Developer",
+    "company": "WebTech",
+    "location": "Berlin, Germany",
+    "salary": "€70,000 - €90,000",
+    "requiredSkills": ["React.js", "Next.js", "Tailwind CSS", "TypeScript"],
+    "matchScore": 85
+  },
+  {
+    "id": 20,
+    "title": "AI Research Scientist",
+    "company": "DeepAI",
+    "location": "Boston, USA",
+    "salary": "$130,000 - $160,000",
+    "requiredSkills": ["AI Research", "Python", "Deep Learning", "NLP"],
+    "matchScore": 69
+  },
+  {
+    "id": 21,
+    "title": "Embedded Software Developer",
+    "company": "ChipWorks",
+    "location": "Taipei, Taiwan",
+    "salary": "NT$1,500,000 - NT$2,000,000",
+    "requiredSkills": ["C", "RTOS", "Microcontrollers", "Assembly"],
+    "matchScore": 87
+  },
+  {
+    "id": 22,
+    "title": "Cloud Security Consultant",
+    "company": "CyberSecure",
+    "location": "Washington D.C., USA",
+    "salary": "$110,000 - $140,000",
+    "requiredSkills": ["Cloud Security", "Penetration Testing", "AWS", "Azure"],
+    "matchScore": 88
+  },
+  {
+    "id": 23,
+    "title": "Technical Project Manager",
+    "company": "TechLeaders",
+    "location": "Zurich, Switzerland",
+    "salary": "CHF 120,000 - CHF 140,000",
+    "requiredSkills": ["Agile", "Scrum", "JIRA", "Leadership"],
+    "matchScore": 73
+  },
+  {
+    "id": 24,
+    "title": "Game AI Engineer",
+    "company": "PlayAI",
+    "location": "Los Angeles, USA",
+    "salary": "$110,000 - $135,000",
+    "requiredSkills": ["C++", "Unity", "AI", "Game Physics"],
+    "matchScore": 75
+  },
+  {
+    "id": 25,
+    "title": "Security Engineer",
+    "company": "SafeNet",
+    "location": "Tokyo, Japan",
+    "salary": "¥9M - ¥11M",
+    "requiredSkills": ["Network Security", "SIEM", "Threat Analysis", "Python"],
+    "matchScore": 86
+  },
+  {
+    "id": 26,
+    "title": "Data Engineer",
+    "company": "BigDataCo",
+    "location": "Paris, France",
+    "salary": "€85,000 - €105,000",
+    "requiredSkills": ["ETL", "Spark", "Python", "SQL"],
+    "matchScore": 90
+  },
+  {
+    "id": 27,
+    "title": "Blockchain Architect",
+    "company": "CryptoLabs",
+    "location": "Dubai, UAE",
+    "salary": "AED 300,000 - AED 350,000",
+    "requiredSkills": ["Ethereum", "Solidity", "Smart Contracts", "Security"],
+    "matchScore": 92
+  },
+  {
+    "id": 28,
+    "title": "Full Stack JavaScript Developer",
+    "company": "JSWorks",
+    "location": "San Francisco, USA",
+    "salary": "$105,000 - $130,000",
+    "requiredSkills": ["Node.js", "React.js", "MongoDB", "GraphQL"],
+    "matchScore": 77
+  },
+  {
+    "id": 29,
+    "title": "Machine Learning Ops Engineer",
+    "company": "MLSystems",
+    "location": "Sydney, Australia",
+    "salary": "AUD 120,000 - AUD 150,000",
+    "requiredSkills": ["MLOps", "TensorFlow", "AWS", "Data Pipelines"],
+    "matchScore": 88
+  },
+  {
+    "id": 30,
+    "title": "Computer Vision Engineer",
+    "company": "VisionAI",
+    "location": "Toronto, Canada",
+    "salary": "CAD 110,000 - CAD 140,000",
+    "requiredSkills": ["OpenCV", "Deep Learning", "Python", "Image Processing"],
+    "matchScore": 91
+  },
+  {
+    "id": 31,
+    "title": "Cloud Database Administrator",
+    "company": "DBCloud",
+    "location": "London, UK",
+    "salary": "£80,000 - £100,000",
+    "requiredSkills": ["PostgreSQL", "MySQL", "AWS RDS", "MongoDB"],
+    "matchScore": 86
+  },
+  {
+    "id": 32,
+    "title": "Software Developer (C++)",
+    "company": "CodeBase",
+    "location": "Berlin, Germany",
+    "salary": "€80,000 - €100,000",
+    "requiredSkills": ["C++", "Multithreading", "STL", "Algorithms"],
+    "matchScore": 84
+  },
+  {
+    "id": 33,
+    "title": "Data Analyst",
+    "company": "AnalyticsPro",
+    "location": "New York, USA",
+    "salary": "$80,000 - $100,000",
+    "requiredSkills": ["SQL", "Python", "Power BI", "Data Visualization"],
+    "matchScore": 78
+  },
+  {
+    "id": 34,
+    "title": "Rust Developer",
+    "company": "RustyTech",
+    "location": "Amsterdam, Netherlands",
+    "salary": "€85,000 - €110,000",
+    "requiredSkills": ["Rust", "WebAssembly", "Concurrency", "Systems Programming"],
+    "matchScore": 69
+  },
+  {
+    "id": 35,
+    "title": "DevSecOps Engineer",
+    "company": "SecDevOps",
+    "location": "San Diego, USA",
+    "salary": "$120,000 - $140,000",
+    "requiredSkills": ["Security", "CI/CD", "Kubernetes", "Terraform"],
+    "matchScore": 90
+  },
+  {
+    "id": 36,
+    "title": "VR Developer",
+    "company": "ImmersiveX",
+    "location": "Los Angeles, USA",
+    "salary": "$110,000 - $130,000",
+    "requiredSkills": ["Unity", "C#", "VR SDKs", "3D Modeling"],
+    "matchScore": 85
+  },
+  {
+    "id": 37,
+    "title": "Site Reliability Engineer (SRE)",
+    "company": "CloudScale",
+    "location": "Seattle, USA",
+    "salary": "$115,000 - $140,000",
+    "requiredSkills": ["Kubernetes", "Terraform", "AWS", "Monitoring"],
+    "matchScore": 68
+  },
+  {
+    "id": 38,
+    "title": "Backend Developer (Golang)",
+    "company": "GoTech",
+    "location": "Stockholm, Sweden",
+    "salary": "SEK 700,000 - SEK 900,000",
+    "requiredSkills": ["Go", "Microservices", "gRPC", "PostgreSQL"],
+    "matchScore": 90
+  },
+  {
+    "id": 39,
+    "title": "Mobile App Developer (Flutter)",
+    "company": "AppGenie",
+    "location": "Barcelona, Spain",
+    "salary": "€60,000 - €85,000",
+    "requiredSkills": ["Flutter", "Dart", "Firebase", "REST APIs"],
+    "matchScore": 87
+  },
+  {
+    "id": 40,
+    "title": "Cloud Engineer",
+    "company": "CloudMaster",
+    "location": "Austin, USA",
+    "salary": "$110,000 - $130,000",
+    "requiredSkills": ["AWS", "Azure", "Terraform", "Kubernetes"],
+    "matchScore": 85
+  },
+  {
+    "id": 41,
+    "title": "AI Ethics Researcher",
+    "company": "EthicalAI",
+    "location": "London, UK",
+    "salary": "£75,000 - £95,000",
+    "requiredSkills": ["AI Ethics", "ML Fairness", "Python", "Data Privacy"],
+    "matchScore": 91
+  },
+  {
+    "id": 42,
+    "title": "E-commerce Developer",
+    "company": "ShopNow",
+    "location": "Amsterdam, Netherlands",
+    "salary": "€75,000 - €100,000",
+    "requiredSkills": ["Next.js", "Shopify", "TypeScript", "Tailwind CSS"],
+    "matchScore": 88
+  },
+  {
+    "id": 43,
+    "title": "Augmented Reality Engineer",
+    "company": "ARLabs",
+    "location": "San Francisco, USA",
+    "salary": "$115,000 - $140,000",
+    "requiredSkills": ["ARKit", "Unity", "C#", "Computer Vision"],
+    "matchScore": 86
+  },
+  {
+    "id": 44,
+    "title": "Performance Engineer",
+    "company": "OptiSpeed",
+    "location": "Berlin, Germany",
+    "salary": "€80,000 - €100,000",
+    "requiredSkills": ["Performance Testing", "Load Balancing", "Chaos Engineering"],
+    "matchScore": 85
+  },
+  {
+    "id": 45,
+    "title": "Full Stack PHP Developer",
+    "company": "CodeLogic",
+    "location": "Toronto, Canada",
+    "salary": "CAD 90,000 - CAD 115,000",
+    "requiredSkills": ["PHP", "Laravel", "Vue.js", "MySQL"],
+    "matchScore": 83
+  },
+  {
+    "id": 46,
+    "title": "DevOps Engineer",
+    "company": "BuildFlow",
+    "location": "Sydney, Australia",
+    "salary": "AUD 120,000 - AUD 150,000",
+    "requiredSkills": ["CI/CD", "Docker", "Kubernetes", "Jenkins"],
+    "matchScore": 89
+  },
+  {
+    "id": 47,
+    "title": "Database Engineer",
+    "company": "DataExperts",
+    "location": "New York, USA",
+    "salary": "$100,000 - $120,000",
+    "requiredSkills": ["PostgreSQL", "MySQL", "NoSQL", "Database Optimization"],
+    "matchScore": 86
+  },
+  {
+    "id": 48,
+    "title": "Penetration Tester",
+    "company": "HackSecure",
+    "location": "Dubai, UAE",
+    "salary": "AED 320,000 - AED 380,000",
+    "requiredSkills": ["Ethical Hacking", "Metasploit", "Red Teaming", "Kali Linux"],
+    "matchScore": 92
+  },
+  {
+    "id": 49,
+    "title": "IoT Engineer",
+    "company": "SmartTech",
+    "location": "Singapore",
+    "salary": "SGD 90,000 - SGD 120,000",
+    "requiredSkills": ["IoT", "Embedded Systems", "Edge Computing", "Python"],
+    "matchScore": 88
+  },
+  {
+    "id": 50,
+    "title": "Robotics Engineer",
+    "company": "AutoBotics",
+    "location": "Seoul, South Korea",
+    "salary": "₩80M - ₩100M",
+    "requiredSkills": ["ROS", "C++", "Machine Learning", "SLAM"],
+    "matchScore": 90
   }
 ]

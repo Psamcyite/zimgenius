@@ -1,14 +1,23 @@
-const getScoreColor = (score: number) => {
-  if (score >= 80) return "bg-green-500";
-  if (score >= 50) return "bg-yellow-500";
-  return "bg-red-500";
-};
+"use client";
 
-const MatchScore = ({ score }: { score: number }) => {
+import { FC } from "react";
+
+interface MatchScoreProps {
+  score: number;
+}
+
+const MatchScore: FC<MatchScoreProps> = ({ score }) => {
+  let bgColor = "bg-gray-300";
+  if (score >= 80) bgColor = "bg-green-500";
+  else if (score >= 50) bgColor = "bg-yellow-500";
+  else bgColor = "bg-red-500";
+
   return (
-    <div className="relative w-full h-3 bg-gray-200 rounded-full">
-      <div className={`${getScoreColor(score)} h-3 rounded-full`} style={{ width: `${score}%` }} />
-      <span className="absolute right-2 text-sm">{score}%</span>
+    <div className="mt-3 flex items-center">
+      <span className="text-sm text-gray-600">Match Score:</span>
+      <div className={`ml-2 px-3 py-1 rounded-full text-white ${bgColor}`}>
+        {score}%
+      </div>
     </div>
   );
 };

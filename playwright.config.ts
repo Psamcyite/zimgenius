@@ -1,10 +1,14 @@
-import { defineConfig } from '@playwright/test';
+import { defineConfig } from "@playwright/test";
 
 export default defineConfig({
-  webServer: {
-    command: 'pnpm run dev',
-    port: 3000,
-    reuseExistingServer: !process.env.CI
+  use: {
+    baseURL: "http://localhost:3000", // Adjust if needed
+    headless: true, // Run tests in headless mode
+    screenshot: "only-on-failure",
   },
-  testDir: './tests'
+  webServer: {
+    command: "pnpm run build && pnpm run start",
+    port: 3000,
+    reuseExistingServer: true,
+  },
 });

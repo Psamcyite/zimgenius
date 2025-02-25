@@ -13,11 +13,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["jest"],
     "baseUrl": "./",
     "paths": {
-      "@/*": ["./*"],
-      "@lib/*": ["lib/*"],
-      "@components/*": ["components/*"]
+      "@/*": ["./*"]
     },
     "plugins": [{ "name": "next" }]
   },

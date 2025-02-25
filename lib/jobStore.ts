@@ -1,25 +1,9 @@
-import { create } from "zustand";
-import axios from "axios";
+import jobData from '../jobData.json';
 
-interface Job {
-  id: number;
-  title: string;
-  company: string;
-  location: string;
-  salary: string;
-  requiredSkills: string[];
-  matchScore: number;
+export function getJobs() {
+  return jobData;
 }
 
-interface JobStore {
-  jobs: Job[];
-  fetchJobs: () => void;
+export function getJobById(id: number) {
+  return jobData.find(job => job.id === id);
 }
-
-export const useJobStore = create<JobStore>((set) => ({
-  jobs: [],
-  fetchJobs: async () => {
-    const response = await axios.get("/data/jobData.json");
-    set({ jobs: response.data });
-  }
-}));
