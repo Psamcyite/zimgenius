@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ZimGenius
 
-## Getting Started
+ZimGenius is an AI-powered job match dashboard that provides personalized job recommendations based on user skills. Built with Next.js 15, TypeScript, and Tailwind CSS, it dynamically fetches job data, calculates match scores, and offers a seamless job application experience.
 
-First, run the development server:
+## Features
 
+- **Job Listings:** Displays job recommendations with company details, location, salary, and match score.
+- **Match Score Visualization:** Progress bar indicating job match percentage (Green: 80%+, Yellow: 50-79%, Red: <50%).
+- **Job Details:** Clickable job cards open a modal with full job descriptions and required skills.
+- **Apply Now:** Users can "apply" for jobs (mock action), with skill gap suggestions.
+- **User Authentication:** Secure login and signup using Clerk authentication or AuthO Custom (for future expansion)
+- **User Dashboard:** Personalized dashboard displaying saved jobs and application history.
+- **Filters & Search:** Advanced filtering options based on job type, location, and salary.
+- **Dark Mode Support:** Toggle between light and dark themes for better accessibility.
+- **Notifications:** Get alerts for new job matches and application status. (for future expansion)
+- **Responsive UI:** Fully optimized for mobile, tablet, and desktop.
+- **API Integration:** Fetches job data dynamically.
+- **State Management:** Uses Zustand for efficient state handling.
+- **CI/CD & Testing:** GitHub Actions for automated deployment, Dependabot for security updates, and Playwright/Jest for testing.
+- **Docker Support:** Easy deployment via Docker. (for future update)
+- **Vercel Deployment:** Live demo hosted on Vercel.
+
+## Tech Stack
+
+- **Frontend:** Next.js 15, React, TypeScript, Tailwind CSS
+- **Backend:** Node.js (for future API expansion)
+- **Database:** Mock JSON API (for demo purposes)
+- **Authentication:** Clerk or AuthO Custom (for future AUTH expansion)
+- **State Management:** Zustand, Context API
+- **Testing:** Jest, Playwright
+- **CI/CD:** GitHub Actions, Dependabot
+- **Deployment:** Vercel, Docker
+
+## Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Psamcyite/zimgenius.git
+cd zimgenius
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running the Project
+```bash
+pnpm dev  # Start the development server
+pnpm test # Run Jest & Playwright tests
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Running with Docker
+```bash
+docker build -t zimgenius .
+docker run -p 3000:3000 zimgenius
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
+The project is automatically deployed to Vercel via GitHub Actions.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions! Feel free to fork the repo and submit a pull request with improvements. Please follow the existing code style and write meaningful commit messages.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MIT License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
