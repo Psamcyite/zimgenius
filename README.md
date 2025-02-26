@@ -22,7 +22,7 @@ ZimGenius is an AI-powered job match dashboard that provides personalized job re
 
 ## Tech Stack
 
-- **Frontend:** Next.js 15, React, TypeScript, Tailwind CSS
+- **Frontend:** Next.js 15, React, TypeScript, Tailwind CSS, Framer Motion 
 - **Backend:** Node.js (for future API expansion)
 - **Database:** Mock JSON API (for demo purposes)
 - **Authentication:** Clerk or AuthO Custom (for future AUTH expansion)
